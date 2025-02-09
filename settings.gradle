@@ -1,0 +1,4 @@
+rootProject.name = 'FastCampus'
+include '10ProjectBackend:Part1_OPP'
+findProject(':10ProjectBackend:Part1_OPP')?.name = 'Part1_OPP'
+
