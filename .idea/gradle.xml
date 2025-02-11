@@ -3,13 +3,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/10ProjectBackend" />
             <option value="$PROJECT_DIR$/10ProjectBackend/Part1_OPP" />
+            <option value="$PROJECT_DIR$/10ProjectBackend/Part1_OPP/was-practice" />
           </set>
         </option>
       </GradleProjectSettings>
