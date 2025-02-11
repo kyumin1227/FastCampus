@@ -1,2 +1,5 @@
 // GET  /calculate?operand1=11&operator=*&operand2=55
 GET localhost:9000/calculate?operand1=11&operator=+&operand2=55
+
+###
+GET localhost:9000/calculate?operand1=5&operator=*&operand2=20
