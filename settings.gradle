@@ -5,4 +5,6 @@ include '10ProjectBackend:Part1_OPP:was-practice'
 findProject(':10ProjectBackend:Part1_OPP:was-practice')?.name = 'was-practice'
 include '10ProjectBackend:Part1_OPP:servlet'
 findProject(':10ProjectBackend:Part1_OPP:servlet')?.name = 'servlet'
+include '10ProjectBackend:Part1_OPP:jdbc-practice'
+findProject(':10ProjectBackend:Part1_OPP:jdbc-practice')?.name = 'jdbc-practice'
 
