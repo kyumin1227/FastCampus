@@ -3,4 +3,6 @@ include '10ProjectBackend:Part1_OPP'
 findProject(':10ProjectBackend:Part1_OPP')?.name = 'Part1_OPP'
 include '10ProjectBackend:Part1_OPP:was-practice'
 findProject(':10ProjectBackend:Part1_OPP:was-practice')?.name = 'was-practice'
+include '10ProjectBackend:Part1_OPP:servlet'
+findProject(':10ProjectBackend:Part1_OPP:servlet')?.name = 'servlet'
 
