@@ -1,2 +1,2 @@
 ### GET request to example server
-GET http://localhost:9000/calculate?operand1=10&operator=+&operand2=30
+GET http://localhost:9000/calculate?operand1=10&operator=%2b&operand2=30
