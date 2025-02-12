@@ -13,7 +13,6 @@ public class Calculator {
     private static final List<NewArithmeticOperator> arithmeticOperators = List.of(new AdditionOperator(), new SubtractionOperator(), new MultiplicationOperator(), new DivisionOperator());
 
     public static int calculate(int operand1, String operator, int operand2) {
-        System.out.println(operator);
         return arithmeticOperators.stream()
                 .filter(arithmeticOperator -> arithmeticOperator.supports(operator))
                 .map(arithmeticOperator -> arithmeticOperator.calculate(new PositiveNumber(operand1), new PositiveNumber(operand2)))
