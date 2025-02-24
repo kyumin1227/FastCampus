@@ -7,4 +7,6 @@ include '10ProjectBackend:Part1_OPP:servlet'
 findProject(':10ProjectBackend:Part1_OPP:servlet')?.name = 'servlet'
 include '10ProjectBackend:Part1_OPP:jdbc-practice'
 findProject(':10ProjectBackend:Part1_OPP:jdbc-practice')?.name = 'jdbc-practice'
+include '10ProjectBackend:Part1_OPP:mvc-practice'
+findProject(':10ProjectBackend:Part1_OPP:mvc-practice')?.name = 'mvc-practice'
 
