@@ -9,4 +9,6 @@ include '10ProjectBackend:Part1_OPP:jdbc-practice'
 findProject(':10ProjectBackend:Part1_OPP:jdbc-practice')?.name = 'jdbc-practice'
 include '10ProjectBackend:Part1_OPP:mvc-practice'
 findProject(':10ProjectBackend:Part1_OPP:mvc-practice')?.name = 'mvc-practice'
+include '10ProjectBackend:Part1_OPP:mvc-practice_2'
+findProject(':10ProjectBackend:Part1_OPP:mvc-practice_2')?.name = 'mvc-practice_2'
 
