@@ -11,4 +11,6 @@ include '10ProjectBackend:Part1_OPP:mvc-practice'
 findProject(':10ProjectBackend:Part1_OPP:mvc-practice')?.name = 'mvc-practice'
 include '10ProjectBackend:Part1_OPP:mvc-practice_2'
 findProject(':10ProjectBackend:Part1_OPP:mvc-practice_2')?.name = 'mvc-practice_2'
+include '10ProjectBackend:Part1_OPP:di-practice'
+findProject(':10ProjectBackend:Part1_OPP:di-practice')?.name = 'di-practice'
 
